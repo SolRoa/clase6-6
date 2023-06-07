@@ -1,0 +1,26 @@
+*{
+    /*arrglo el margen y padding por defecto*/
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-color: rgb(202, 116, 116); /*para ir viendo los cambios*/
+    border: 1px solid black;
+    background:url("../img/doghero.jpg");
+    height: 80vh; /*no se puede usar px, en el hero no tengo que ir para abajo para ver todo, usar vh viewpor height con %, siempre en el hero*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.product{
+    background-color: blanchedalmond;
+}
+
+.ebookymanuals{
+    background-color: chocolate;
+}
+
